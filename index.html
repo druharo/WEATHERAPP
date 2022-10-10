@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Challege 6</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1 navbar-text">Weather Dashboard</span>
+            
             </div>
         </nav>
 
@@ -28,15 +28,9 @@
                     </form>
 
                     <hr />
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityAtlanta">Atlanta</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityDenver">Denver</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCitySeattle">Seattle</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCitySanFrancisco">San
-                        Francisco</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityOrlando">Orlando</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityNewYork">New York</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityChicago">Chicago</button>
-                    <button type="button" class="btn btn-secondary btn-block" id="btnCityAustin">Austin</button>
+                    <div id="histories">
+
+                    </div>
                 </div>
             </div>
             <div class="col-9">
@@ -60,7 +54,7 @@
                 <div class="row">
 
                     <div class="col">
-                        <div class="card text-white bg-dark" style="width: 10rem;">
+                        <div class="card text-white bg-dark" style="width: 12rem;">
                             <div class="card-body">
                                 <h6 class="card-title" id="divDate0"></h6>
                                 <div><img id="spanIcon0" src=""></div>
@@ -84,7 +78,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card text-white bg-dark" style="width: 12rem;">
+                        <div class="card text-white bg-dark" style="width: 10rem;">
                             <div class="card-body">
                                 <h6 class="card-title" id="divDate2"></h6>
                                 <div><img id="spanIcon2" src=""></div>
