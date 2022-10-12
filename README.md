@@ -5,8 +5,8 @@ weather app for challenge 6
 1. The page was built using mainly Javascript, HTML5 and Bootstrap, JQUERY deployed using Github pages and is hostested on Github. Link and the screen shot are attached herewith.
 
 a) ![image info](./weatherapp.png)
-b) link to github pages (https://github.com/druharo/SCHEDULER)
-c) Link to the live site (https://druharo.github.io/SCHEDULER/)
+b) link to github pages (https://github.com/druharo/WEATHERAPP)
+c) Link to the live site (https://druharo.github.io/WEATHERAPP/)
 
 2. Key changes were made and pushed to github repository. initial  commit, update to the Javascript code, inserting images, updating the URLs and creation of page in Github.
 
